@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB058A51-C769-45DC-9FE6-1964C342B0BB}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Release/CVIPlab_Project.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/CVIPlab_Project.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;manager.lib;ws2_32.lib;ARITHLOGIC.lib;Band.lib;COLOR.lib;COMPRESS.lib;CONVERt.lib;Display.lib;FEATURE.lib;GEOMETRY.lib;histo.lib;Image.lib;IO.lib;JPEG.lib;ManAger.lib;Map.lib;Matrix.lib;morph.lib;NOISE.lib;Object.lib;oncrpc.lib;PBM.lib;ROI.lib;rpcinfo.lib;SEGMENT.lib;spatialfilter.lib;TIFF.lib;TRANSFORM.lib;Vector.lib;XFORMFILTER.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/CVIPlab_Project.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>./lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBC.LIB;LIBCD.LIB;LIBCMT.LIB;LIBCMTD.LIB;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDatabaseFile>.\Release/CVIPlab_Project.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/CVIPlab_Project.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Debug/CVIPlab_Project.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/CVIPlab_Project.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;ArithLogic.lib;Band.lib;Color.lib;Compression.lib;Conversion.lib;Display.lib;Feature.lib;Geometry.lib;Histogram.lib;Image.lib;IO.lib;JPEG.lib;ObjectManager.lib;Mapping.lib;Matrix.lib;Morphological.lib;Noise.lib;Object.lib;oncrpc.lib;PBM.lib;rpcinfo.lib;ROI.lib;Segmentation.lib;SpatialFilter.lib;TIFF.lib;Transform.lib;Vector.lib;TransformFilter.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/CVIPlab_Project.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBC.LIB;LIBCD.LIB;LIBCMT.LIB;LIBCMTD.LIB;MSVCRT.LIB;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/CVIPlab_Project.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/CVIPlab_Project.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CVIPlab.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CVIPlab_Project.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="threshold_lab.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CVIPlab_Project.rc">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CVIPlab.h" />
+    <ClInclude Include="CVIPlab_Project.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="..\include\bilinear.h" />
+    <ClInclude Include="..\include\bilinear_prim.h" />
+    <ClInclude Include="..\include\bitplane_RLC.h" />
+    <ClInclude Include="..\include\block_trunc_coding.h" />
+    <ClInclude Include="..\include\BMP.H" />
+    <ClInclude Include="..\include\boundary_points.h" />
+    <ClInclude Include="..\include\cderror.h" />
+    <ClInclude Include="..\include\cdjpeg.h" />
+    <ClInclude Include="..\include\color_adjust.h" />
+    <ClInclude Include="..\include\ColorMap.h" />
+    <ClInclude Include="..\include\CVIPalloc.h" />
+    <ClInclude Include="..\include\CVIParith.h" />
+    <ClInclude Include="..\include\CVIParithlogic.h" />
+    <ClInclude Include="..\include\CVIPband.h" />
+    <ClInclude Include="..\include\CVIPbin.h" />
+    <ClInclude Include="..\include\CVIPbitwiseIO.h" />
+    <ClInclude Include="..\include\CVIPccc.h" />
+    <ClInclude Include="..\include\CVIPcmap.h" />
+    <ClInclude Include="..\include\CVIPcolor.h" />
+    <ClInclude Include="..\include\CVIPcomplex.h" />
+    <ClInclude Include="..\include\CVIPcompress.h" />
+    <ClInclude Include="..\include\CVIPconutils.h" />
+    <ClInclude Include="..\include\CVIPconvert.h" />
+    <ClInclude Include="..\include\CVIPdef.h" />
+    <ClInclude Include="..\include\CVIPdermvis.h" />
+    <ClInclude Include="..\include\CVIPdrawimg.h" />
+    <ClInclude Include="..\include\CVIPenhance.h" />
+    <ClInclude Include="..\include\CVIPeps.h" />
+    <ClInclude Include="..\include\CVIPerror.h" />
+    <ClInclude Include="..\include\CVIPfeatures.h" />
+    <ClInclude Include="..\include\CVIPfile.h" />
+    <ClInclude Include="..\include\CVIPfs.h" />
+    <ClInclude Include="..\include\CVIPgeometry.h" />
+    <ClInclude Include="..\include\CVIPget.h" />
+    <ClInclude Include="..\include\CVIPgif.h" />
+    <ClInclude Include="..\include\CVIPhalftone.h" />
+    <ClInclude Include="..\include\CVIPheli_rot.h" />
+    <ClInclude Include="..\include\CVIPhisto.h" />
+    <ClInclude Include="..\include\CVIPhistory.h" />
+    <ClInclude Include="..\include\CVIPicon.h" />
+    <ClInclude Include="..\include\CVIPimage.h" />
+    <ClInclude Include="..\include\CVIPitex.h" />
+    <ClInclude Include="..\include\CVIPjpeg.h" />
+    <ClInclude Include="..\include\CVIPluminance.h" />
+    <ClInclude Include="..\include\CVIPmagic.h" />
+    <ClInclude Include="..\include\CVIPmanager.h" />
+    <ClInclude Include="..\include\CVIPmap.h" />
+    <ClInclude Include="..\include\CVIPmatrix.h" />
+    <ClInclude Include="..\include\CVIPmesh.h" />
+    <ClInclude Include="..\include\CVIPmorph.h" />
+    <ClInclude Include="..\include\CVIPnoise.h" />
+    <ClInclude Include="..\include\CVIPobject.h" />
+    <ClInclude Include="..\include\CVIPparse.h" />
+    <ClInclude Include="..\include\CVIPpnm.h" />
+    <ClInclude Include="..\include\CVIPps.h" />
+    <ClInclude Include="..\include\CVIPras.h" />
+    <ClInclude Include="..\include\CVIProi.h" />
+    <ClInclude Include="..\include\CVIPsegment.h" />
+    <ClInclude Include="..\include\CVIPspfltr.h" />
+    <ClInclude Include="..\include\CVIPstring.h" />
+    <ClInclude Include="..\include\CVIPtexture.h" />
+    <ClInclude Include="..\include\CVIPtiff.h" />
+    <ClInclude Include="..\include\CVIPtoolkit.h" />
+    <ClInclude Include="..\include\CVIPtools.h" />
+    <ClInclude Include="..\include\CVIPtransform.h" />
+    <ClInclude Include="..\include\CVIPtyp.h" />
+    <ClInclude Include="..\include\CVIPvector.h" />
+    <ClInclude Include="..\include\CVIPview.h" />
+    <ClInclude Include="..\include\CVIPvip.h" />
+    <ClInclude Include="..\include\CVIPxel.h" />
+    <ClInclude Include="..\include\CVIPxformfilter.h" />
+    <ClInclude Include="..\include\DATATYPE.H" />
+    <ClInclude Include="..\include\deform_template.h" />
+    <ClInclude Include="..\include\DermVis.h" />
+    <ClInclude Include="..\include\DermvisDat.h" />
+    <ClInclude Include="..\include\DigitalLine.h" />
+    <ClInclude Include="..\include\dithers.h" />
+    <ClInclude Include="..\include\DLL.h" />
+    <ClInclude Include="..\include\ee.h" />
+    <ClInclude Include="..\include\eefunc.h" />
+    <ClInclude Include="..\include\ENDIANIO.H" />
+    <ClInclude Include="..\include\fcm.h" />
+    <ClInclude Include="..\include\filterVector.h" />
+    <ClInclude Include="..\include\findHisto.h" />
+    <ClInclude Include="..\include\findNonSkin.h" />
+    <ClInclude Include="..\include\fractal.h" />
+    <ClInclude Include="..\include\ftw.h" />
+    <ClInclude Include="..\include\fuzzyc.h" />
+    <ClInclude Include="..\include\g3states.h" />
+    <ClInclude Include="..\include\grey_RLC.h" />
+    <ClInclude Include="..\include\hist.h" />
+    <ClInclude Include="..\include\hist_thresh.h" />
+    <ClInclude Include="..\include\histogram.h" />
+    <ClInclude Include="..\include\HT.h" />
+    <ClInclude Include="..\include\huffman.h" />
+    <ClInclude Include="..\include\imaging.h" />
+    <ClInclude Include="..\include\img2imgmap.h" />
+    <ClInclude Include="..\include\jchuff.h" />
+    <ClInclude Include="..\include\jconfig.h" />
+    <ClInclude Include="..\include\jdct.h" />
+    <ClInclude Include="..\include\jdhuff.h" />
+    <ClInclude Include="..\include\jerror.h" />
+    <ClInclude Include="..\include\jinclude.h" />
+    <ClInclude Include="..\include\jmemsys.h" />
+    <ClInclude Include="..\include\jmorecfg.h" />
+    <ClInclude Include="..\include\jpegint.h" />
+    <ClInclude Include="..\include\jpeglib.h" />
+    <ClInclude Include="..\include\jversion.h" />
+    <ClInclude Include="..\include\labeling.h" />
+    <ClInclude Include="..\include\LBG.h" />
+    <ClInclude Include="..\include\libpbm.h" />
+    <ClInclude Include="..\include\libpgm.h" />
+    <ClInclude Include="..\include\libppm.h" />
+    <ClInclude Include="..\include\Link.h" />
+    <ClInclude Include="..\include\LL.h" />
+    <ClInclude Include="..\include\m_CovEig.h" />
+    <ClInclude Include="..\include\m_file.h" />
+    <ClInclude Include="..\include\machdep.h" />
+    <ClInclude Include="..\include\masks.h" />
+    <ClInclude Include="..\include\MATcopy.h" />
+    <ClInclude Include="..\include\MATmult.h" />
+    <ClInclude Include="..\include\MATpwise.h" />
+    <ClInclude Include="..\include\MATscale.h" />
+    <ClInclude Include="..\include\median_cut.h" />
+    <ClInclude Include="..\include\misc_fcns.h" />
+    <ClInclude Include="..\include\mymath.h" />
+    <ClInclude Include="..\include\newfeature.h" />
+    <ClInclude Include="..\include\Object.h" />
+    <ClInclude Include="..\include\ObjectContour.h" />
+    <ClInclude Include="..\include\ObjectLabel.h" />
+    <ClInclude Include="..\include\ObjectProperties.h" />
+    <ClInclude Include="..\include\pbm.h" />
+    <ClInclude Include="..\include\pbmfont.h" />
+    <ClInclude Include="..\include\pbmplus.h" />
+    <ClInclude Include="..\include\pct.h" />
+    <ClInclude Include="..\include\pgm.h" />
+    <ClInclude Include="..\include\pnm.h" />
+    <ClInclude Include="..\include\port.h" />
+    <ClInclude Include="..\include\ppbm.h" />
+    <ClInclude Include="..\include\ppbmplus.h" />
+    <ClInclude Include="..\include\ppgm.h" />
+    <ClInclude Include="..\include\ppm.h" />
+    <ClInclude Include="..\include\ppmcmap.h" />
+    <ClInclude Include="..\include\ppmdraw.h" />
+    <ClInclude Include="..\include\prototypes.h" />
+    <ClInclude Include="..\include\pversion.h" />
+    <ClInclude Include="..\include\rast.h" />
+    <ClInclude Include="..\include\sct_split.h" />
+    <ClInclude Include="..\include\SeedFill.h" />
+    <ClInclude Include="..\include\seg.h" />
+    <ClInclude Include="..\include\Spline.h" />
+    <ClInclude Include="..\include\split_merge.h" />
+    <ClInclude Include="..\include\Stack.h" />
+    <ClInclude Include="..\include\subSample.h" />
+    <ClInclude Include="..\include\t4.h" />
+    <ClInclude Include="..\include\threshold.h" />
+    <ClInclude Include="..\include\tif_dir.h" />
+    <ClInclude Include="..\include\tif_fax3.h" />
+    <ClInclude Include="..\include\tif_predict.h" />
+    <ClInclude Include="..\include\tiff.h" />
+    <ClInclude Include="..\include\tiffcomp.h" />
+    <ClInclude Include="..\include\tiffconf.h" />
+    <ClInclude Include="..\include\tiffio.h" />
+    <ClInclude Include="..\include\tiffiop.h" />
+    <ClInclude Include="..\include\TrimList.h" />
+    <ClInclude Include="..\include\tristimulus.h" />
+    <ClInclude Include="..\include\vector_data.h" />
+    <ClInclude Include="..\include\vector_quant.h" />
+    <ClInclude Include="..\include\version.h" />
+    <ClInclude Include="..\include\watershed.h" />
+    <ClInclude Include="..\include\wavelet.h" />
+    <ClInclude Include="..\include\waves.h" />
+    <ClInclude Include="..\include\zonal.h" />
+    <ClInclude Include="..\include\rpc\auth.h" />
+    <ClInclude Include="..\include\rpc\auth_uni.h" />
+    <ClInclude Include="..\include\rpc\bcopy.h" />
+    <ClInclude Include="..\include\rpc\clnt.h" />
+    <ClInclude Include="..\include\rpc\netdb.h" />
+    <ClInclude Include="..\include\rpc\pmap_cln.h" />
+    <ClInclude Include="..\include\rpc\pmap_pro.h" />
+    <ClInclude Include="..\include\rpc\pmap_rmt.h" />
+    <ClInclude Include="..\include\rpc\rpc.h" />
+    <ClInclude Include="..\include\rpc\rpc_msg.h" />
+    <ClInclude Include="..\include\rpc\svc.h" />
+    <ClInclude Include="..\include\rpc\svc_auth.h" />
+    <ClInclude Include="..\include\rpc\types.h" />
+    <ClInclude Include="..\include\rpc\xdr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\ArithLogic.lib" />
+    <Library Include="..\lib\Band.lib" />
+    <Library Include="..\lib\Color.lib" />
+    <Library Include="..\lib\Compression.lib" />
+    <Library Include="..\lib\Conversion.lib" />
+    <Library Include="..\lib\Display.lib" />
+    <Library Include="..\lib\Feature.lib" />
+    <Library Include="..\lib\Geometry.lib" />
+    <Library Include="..\lib\Histogram.lib" />
+    <Library Include="..\lib\Image.lib" />
+    <Library Include="..\lib\IO.lib" />
+    <Library Include="..\lib\JPEG.lib" />
+    <Library Include="..\lib\Mapping.lib" />
+    <Library Include="..\lib\Matrix.lib" />
+    <Library Include="..\lib\Morphological.lib" />
+    <Library Include="..\lib\Noise.lib" />
+    <Library Include="..\lib\Object.lib" />
+    <Library Include="..\lib\ObjectManager.lib" />
+    <Library Include="..\lib\oncrpc.lib" />
+    <Library Include="..\lib\PBM.lib" />
+    <Library Include="..\lib\ROI.lib" />
+    <Library Include="..\lib\rpcinfo.lib" />
+    <Library Include="..\lib\Segmentation.lib" />
+    <Library Include="..\lib\SpatialFilter.lib" />
+    <Library Include="..\lib\TIFF.lib" />
+    <Library Include="..\lib\Transform.lib" />
+    <Library Include="..\lib\TransformFilter.lib" />
+    <Library Include="..\lib\Vector.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

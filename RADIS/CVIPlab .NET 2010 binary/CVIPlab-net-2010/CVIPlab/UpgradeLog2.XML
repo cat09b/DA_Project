@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CVIPlab_Project">
+</Property><Property Name="Solution File" Value="C:\Users\Kelsey\Downloads\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\CVIPlab_Project.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Kelsey\Downloads\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\CVIPlab_Project.suo">
+</Property><Property Name="Date" Value="Tuesday, March 27, 2012">
+</Property><Property Name="Time" Value="18:11 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="CVIPlab_Project.sln" Description="Error creating backup file: C:\Users\Kelsey\Downloads\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\CVIPlab_Project.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="CVIPlab_Project.suo" Description="Error creating backup file: C:\Users\Kelsey\Downloads\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\CVIPlab_Project.suo.old">
+</Event><Event ErrorLevel="0" Project="CVIPlab_Project" Source="CVIPlab_Project.vcproj" Description="Converting project file 'C:\Users\Kelsey\Downloads\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\CVIPlab_Project.vcproj'.">
+</Event><Event ErrorLevel="1" Project="CVIPlab_Project" Source="CVIPlab_Project.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="CVIPlab_Project" Source="CVIPlab_Project.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\Kelsey\Downloads\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\.\Release\CVIPlab_Project.exe') does not match the Linker's OutputFile property value '.\Release/CVIPlab_Project.exe' ('C:\Users\Kelsey\Downloads\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\Release/CVIPlab_Project.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="CVIPlab_Project" Source="CVIPlab_Project.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\Kelsey\Downloads\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\.\Debug\CVIPlab_Project.exe') does not match the Linker's OutputFile property value '.\Debug/CVIPlab_Project.exe' ('C:\Users\Kelsey\Downloads\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\Debug/CVIPlab_Project.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="CVIPlab_Project" Source="CVIPlab_Project.vcproj" Description="Done converting to new project file 'C:\Users\Kelsey\Downloads\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\CVIPlab_Project.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="CVIPlab_Project" Source="CVIPlab_Project.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CVIPlab_Project.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CVIPlab_Project.sln" Description="Converted">
+</Event></UpgradeLog>

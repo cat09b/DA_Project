@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b875f06d-c9e2-4bfc-92d7-d8f51ebc6a9c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7b343570-fc5e-44a9-81f1-4e9e0d3d91d0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{a5fcf497-49bc-4dc5-b0af-af4e81868100}</UniqueIdentifier>
+      <Extensions>*.lib</Extensions>
+    </Filter>
+    <Filter Include="cvip header">
+      <UniqueIdentifier>{3ab6b3c7-9c42-4e6a-b9ff-356909be90ff}</UniqueIdentifier>
+      <Extensions>*.h*</Extensions>
+    </Filter>
+    <Filter Include="cvip header\rpc">
+      <UniqueIdentifier>{bea50d10-34e7-463a-93ba-4dc05a465111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d41ac05c-d88f-482e-af38-8f45ad53be04}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CVIPlab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVIPlab_Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="threshold_lab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CVIPlab_Project.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CVIPlab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVIPlab_Project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\bilinear.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\bilinear_prim.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\bitplane_RLC.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\block_trunc_coding.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BMP.H">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\boundary_points.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cderror.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cdjpeg.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\color_adjust.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ColorMap.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPalloc.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIParith.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIParithlogic.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPband.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPbin.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPbitwiseIO.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPccc.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPcmap.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPcolor.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPcomplex.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPcompress.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPconutils.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPconvert.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPdef.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPdermvis.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPdrawimg.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPenhance.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPeps.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPerror.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPfeatures.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPfile.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPfs.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPgeometry.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPget.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPgif.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPhalftone.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPheli_rot.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPhisto.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPhistory.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPicon.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPimage.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPitex.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPjpeg.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPluminance.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmagic.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmanager.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmap.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmatrix.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmesh.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmorph.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPnoise.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPobject.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPparse.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPpnm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPps.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPras.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIProi.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPsegment.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPspfltr.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPstring.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtexture.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtiff.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtoolkit.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtools.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtransform.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtyp.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPvector.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPview.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPvip.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPxel.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPxformfilter.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DATATYPE.H">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\deform_template.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DermVis.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DermvisDat.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DigitalLine.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dithers.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DLL.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ee.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\eefunc.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ENDIANIO.H">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fcm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\filterVector.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\findHisto.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\findNonSkin.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fractal.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ftw.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fuzzyc.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\g3states.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\grey_RLC.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hist.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hist_thresh.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\histogram.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HT.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\huffman.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imaging.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\img2imgmap.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jchuff.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jconfig.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdct.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdhuff.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jerror.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jinclude.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jmemsys.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jmorecfg.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jpegint.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jpeglib.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jversion.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\labeling.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LBG.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libpbm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libpgm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libppm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Link.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LL.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\m_CovEig.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\m_file.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\machdep.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\masks.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MATcopy.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MATmult.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MATpwise.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MATscale.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\median_cut.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\misc_fcns.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mymath.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\newfeature.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Object.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ObjectContour.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ObjectLabel.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ObjectProperties.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pbm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pbmfont.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pbmplus.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pct.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pgm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pnm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\port.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppbm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppbmplus.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppgm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppmcmap.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppmdraw.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\prototypes.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pversion.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rast.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sct_split.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SeedFill.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\seg.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spline.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\split_merge.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Stack.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\subSample.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\t4.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\threshold.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tif_dir.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tif_fax3.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tif_predict.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tiff.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tiffcomp.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tiffconf.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tiffio.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tiffiop.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TrimList.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tristimulus.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vector_data.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vector_quant.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\version.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\watershed.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wavelet.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\waves.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zonal.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\auth.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\auth_uni.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\bcopy.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\clnt.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\netdb.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\pmap_cln.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\pmap_pro.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\pmap_rmt.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\rpc.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\rpc_msg.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\svc.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\svc_auth.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\types.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\xdr.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\ArithLogic.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Band.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Color.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Compression.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Conversion.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Display.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Feature.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Geometry.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Histogram.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Image.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\IO.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\JPEG.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Mapping.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Matrix.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Morphological.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Noise.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Object.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\ObjectManager.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\oncrpc.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\PBM.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\ROI.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\rpcinfo.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Segmentation.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\SpatialFilter.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\TIFF.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Transform.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\TransformFilter.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Vector.lib">
+      <Filter>library</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
