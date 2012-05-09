@@ -1,0 +1,1583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{451d641a-b8d5-407a-adb5-f52f24a28f87}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{936bc7fc-d4ac-4319-b64e-96e02c96cbae}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{7679f9cc-d615-4851-ae7b-0eb1abf611ef}</UniqueIdentifier>
+      <Extensions>*.lib</Extensions>
+    </Filter>
+    <Filter Include="cvip header">
+      <UniqueIdentifier>{2df030c4-bffd-453d-bbab-245d541d6a16}</UniqueIdentifier>
+      <Extensions>*.h*</Extensions>
+    </Filter>
+    <Filter Include="cvip header\rpc">
+      <UniqueIdentifier>{8c7fdfaa-066e-4494-ad3e-397411617e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{bde2f95c-b07b-4f34-a2aa-f8c384492cbc}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CVIPlab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVIPlab_Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="threshold_lab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CVIPlab_Project.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CVIPlab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVIPlab_Project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\bilinear.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\bilinear_prim.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\bitplane_RLC.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\block_trunc_coding.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BMP.H">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\boundary_points.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cderror.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cdjpeg.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\color_adjust.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ColorMap.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPalloc.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIParith.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIParithlogic.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPband.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPbin.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPbitwiseIO.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPccc.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPcmap.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPcolor.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPcomplex.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPcompress.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPconutils.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPconvert.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPdef.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPdermvis.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPdrawimg.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPenhance.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPeps.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPerror.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPfeatures.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPfile.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPfs.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPgeometry.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPget.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPgif.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPhalftone.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPheli_rot.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPhisto.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPhistory.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPicon.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPimage.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPitex.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPjpeg.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPluminance.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmagic.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmanager.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmap.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmatrix.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmesh.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPmorph.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPnoise.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPobject.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPparse.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPpnm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPps.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPras.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIProi.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPsegment.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPspfltr.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPstring.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtexture.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtiff.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtoolkit.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtools.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtransform.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPtyp.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPvector.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPview.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPvip.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPxel.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CVIPxformfilter.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DATATYPE.H">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\deform_template.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DermVis.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DermvisDat.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DigitalLine.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dithers.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DLL.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ee.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\eefunc.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ENDIANIO.H">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fcm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\filterVector.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\findHisto.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\findNonSkin.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fractal.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ftw.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fuzzyc.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\g3states.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\grey_RLC.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hist.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hist_thresh.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\histogram.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HT.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\huffman.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imaging.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\img2imgmap.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jchuff.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jconfig.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdct.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdhuff.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jerror.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jinclude.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jmemsys.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jmorecfg.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jpegint.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jpeglib.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jversion.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\labeling.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LBG.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libpbm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libpgm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libppm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Link.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LL.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\m_CovEig.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\m_file.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\machdep.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\masks.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MATcopy.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MATmult.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MATpwise.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MATscale.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\median_cut.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\misc_fcns.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mymath.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\newfeature.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Object.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ObjectContour.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ObjectLabel.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ObjectProperties.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pbm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pbmfont.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pbmplus.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pct.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pgm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pnm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\port.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppbm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppbmplus.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppgm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppm.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppmcmap.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ppmdraw.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\prototypes.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pversion.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rast.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sct_split.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SeedFill.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\seg.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spline.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\split_merge.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Stack.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\subSample.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\t4.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\threshold.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tif_dir.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tif_fax3.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tif_predict.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tiff.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tiffcomp.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tiffconf.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tiffio.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tiffiop.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TrimList.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tristimulus.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vector_data.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vector_quant.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\version.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\watershed.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wavelet.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\waves.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zonal.h">
+      <Filter>cvip header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\auth.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\auth_uni.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\bcopy.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\clnt.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\netdb.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\pmap_cln.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\pmap_pro.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\pmap_rmt.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\rpc.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\rpc_msg.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\svc.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\svc_auth.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\types.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rpc\xdr.h">
+      <Filter>cvip header\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="test_patient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\accctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\zmouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxadv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcmn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcom_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcomctl32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxctrlcontainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdd_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdlgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdll_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdtctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxmsg_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxocc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxplex_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxpriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxpriv2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxstat_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxtempl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxtls_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxv_cfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxv_cpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxv_dll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxv_w32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxver_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlchecked.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcomcli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcommem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcomtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atldebugapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atldef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlevent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlexcept.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atliface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlplus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlsimpcoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlsimpstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltransactionmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\basetsd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\bcrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\cderr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\cguid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\comcat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\commctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\commdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\crtdbg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\crtdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\crtwrn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\cstringt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\ctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\dde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ddeml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\devpkey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\devpropdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\dlgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\docobj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\driverspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\eh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\excpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\exdisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\fcntl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\float.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\msclr\gcroot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\gcroot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\guiddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\htmlhelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ifdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ifmib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ime_cmodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\imm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\in6addr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\inaddr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ipexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\iphlpapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ipifcons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ipmib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\iprtrmib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\iptypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\isguids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\kernelspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\knownfolders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ktmtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ktmw32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\limits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\lmcons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\locale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\lzexpand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\malloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\mbctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\mbstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\mcx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\mmsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\mprapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\msxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\naptypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\nb30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ncrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\netioapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\nldef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ntddndis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\oaidl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\objbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\objectarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\objidl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\ocdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\ocdbid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ocidl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ole2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\oleacc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\oleauto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\olebind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\olectl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\oledb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\packoff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\packon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\pciprop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\propidl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\propkeydef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\propsys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\prsht.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\qos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\reason.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\richedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\richole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcasync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcdce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcdcep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcndr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcnsi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcnsip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcnterr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcsal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\sal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\sal_supp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\scarderr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\schemadef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\sdkddkver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\servprov.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\setjmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\setjmpex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\share.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shellapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\sherrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shldisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shlguid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shlobj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shlwapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shobjidl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\signal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_strict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_supp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_undef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\sys\stat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\statreg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\stdarg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\stddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\stralign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\structuredquerycondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\tchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\tcpestats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\tcpmib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\thumbcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\tmschema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\tpcshrd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\transact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\tvout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\sys\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\udpmib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\unknwn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\urlmon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\use_ansi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\uxtheme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\vadefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\vcclr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\verrsrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\vsstyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\vssym32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\wchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wincon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wincrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\windns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\windot11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wingdi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winioctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winnetwk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winnls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winperf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winreg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\winres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winresrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winscard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winsdkver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winsmcrd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winspool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winsvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wlantypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wnnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2ipdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2tcpip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wsipv6ok.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wspiapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\xkeycheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\xlocinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\ymath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="patient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\ArithLogic.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Band.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Color.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Compression.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Conversion.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Display.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Feature.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Geometry.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Histogram.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Image.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\IO.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\JPEG.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Mapping.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Matrix.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Morphological.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Noise.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Object.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\ObjectManager.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\oncrpc.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\PBM.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\ROI.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\rpcinfo.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Segmentation.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\SpatialFilter.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\TIFF.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Transform.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\TransformFilter.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="..\lib\Vector.lib">
+      <Filter>library</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afx.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcmn.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcmn2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcmn3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcoll.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcomctl32.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdlgs.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdtctl.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxext.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxole.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin1.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin4.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlbase.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcomtime.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltime.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltypes.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\commctrl.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\commdlg.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\cstringt.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\prsht.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\sys\stat.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\swprintf.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winbase.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\wtime.inl">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

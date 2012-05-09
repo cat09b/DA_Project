@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB058A51-C769-45DC-9FE6-1964C342B0BB}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Release/CVIPlab_Project.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/CVIPlab_Project.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;manager.lib;ws2_32.lib;ARITHLOGIC.lib;Band.lib;COLOR.lib;COMPRESS.lib;CONVERt.lib;Display.lib;FEATURE.lib;GEOMETRY.lib;histo.lib;Image.lib;IO.lib;JPEG.lib;ManAger.lib;Map.lib;Matrix.lib;morph.lib;NOISE.lib;Object.lib;oncrpc.lib;PBM.lib;ROI.lib;rpcinfo.lib;SEGMENT.lib;spatialfilter.lib;TIFF.lib;TRANSFORM.lib;Vector.lib;XFORMFILTER.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/CVIPlab_Project.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>./lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBC.LIB;LIBCD.LIB;LIBCMT.LIB;LIBCMTD.LIB;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDatabaseFile>.\Release/CVIPlab_Project.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/CVIPlab_Project.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Debug/CVIPlab_Project.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/CVIPlab_Project.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;ArithLogic.lib;Band.lib;Color.lib;Compression.lib;Conversion.lib;Display.lib;Feature.lib;Geometry.lib;Histogram.lib;Image.lib;IO.lib;JPEG.lib;ObjectManager.lib;Mapping.lib;Matrix.lib;Morphological.lib;Noise.lib;Object.lib;oncrpc.lib;PBM.lib;rpcinfo.lib;ROI.lib;Segmentation.lib;SpatialFilter.lib;TIFF.lib;Transform.lib;Vector.lib;TransformFilter.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/CVIPlab_Project.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBC.LIB;LIBCD.LIB;LIBCMT.LIB;LIBCMTD.LIB;MSVCRT.LIB;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/CVIPlab_Project.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/CVIPlab_Project.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CVIPlab.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CVIPlab_Project.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="threshold_lab.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CVIPlab_Project.rc">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\accctrl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\basetsd.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\bcrypt.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\cderr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\cguid.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\comcat.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\commctrl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\commdlg.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\dde.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ddeml.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\devpkey.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\devpropdef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\dlgs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\docobj.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\driverspecs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\exdisp.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\filter.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\guiddef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\htmlhelp.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ifdef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ifmib.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ime_cmodes.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\imm.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\in6addr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\inaddr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ipexport.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\iphlpapi.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ipifcons.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ipmib.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\iprtrmib.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\iptypes.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\isguids.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\kernelspecs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\knownfolders.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ktmtypes.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ktmw32.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\lmcons.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\lzexpand.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\mcx.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\mmsystem.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\mprapi.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\msxml.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\naptypes.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\nb30.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ncrypt.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\netioapi.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\nldef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ntddndis.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\oaidl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\objbase.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\objectarray.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\objidl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ocidl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ole.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ole2.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\oleacc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\oleauto.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\olectl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\oledb.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\packoff.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\packon.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\pciprop.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\propidl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\propkeydef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\propsys.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\prsht.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack1.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack2.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack4.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack8.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\qos.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ras.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\reason.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\richedit.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\richole.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcasync.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcdce.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcdcep.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcndr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcnsi.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcnsip.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcnterr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcsal.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\sal_supp.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\scarderr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\schemadef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\sdkddkver.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\servprov.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shellapi.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\sherrors.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shldisp.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shlguid.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shlobj.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shlwapi.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shobjidl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\shtypes.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_strict.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_supp.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_undef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\stralign.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\structuredquerycondition.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\tcpestats.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\tcpmib.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\thumbcache.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\tmschema.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\tpcshrd.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\transact.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\tvout.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\udpmib.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\unknwn.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\urlmon.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\uxtheme.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\verrsrc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\vsstyle.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\vssym32.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winbase.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wincon.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wincrypt.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\windns.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\windot11.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\windows.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winefs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winerror.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wingdi.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winioctl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winnetwk.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winnls.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winperf.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winreg.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winresrc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winscard.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winsdkver.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winsmcrd.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winspool.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winsvc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winver.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wlantypes.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wnnc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2ipdef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2tcpip.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wsipv6ok.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wspiapi.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\wtypes.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\zmouse.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afx.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxadv.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcmn.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcoll.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcomctl32.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcom_.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxconv.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxctrlcontainer.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdd_.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdisp.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdlgs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdll_.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdtctl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxext.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxmsg_.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxocc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxole.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxplex_.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxpriv.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxpriv2.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxres.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxstat_.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxstr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxtempl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxtls_.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxver_.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxv_cfg.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxv_cpu.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxv_dll.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxv_w32.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlalloc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlbase.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlchecked.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcoll.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcomcli.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcommem.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcomtime.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlconv.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcore.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atldebugapi.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atldef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlevent.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlexcept.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlhandler.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atliface.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlmem.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlplus.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlrc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlsimpcoll.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlsimpstr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlstr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltime.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltrace.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltransactionmanager.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltypes.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\cstringt.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\ocdb.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\ocdbid.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\olebind.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\statreg.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\winres.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\assert.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\crtdbg.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\crtdefs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\crtwrn.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\ctype.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\eh.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\excpt.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\fcntl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\float.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\gcroot.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\limits.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\locale.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\malloc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\math.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\mbctype.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\mbstring.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\msclr\gcroot.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\new.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\process.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\sal.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\setjmp.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\setjmpex.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\share.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\signal.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\stdarg.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\stddef.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\string.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\sys\stat.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\sys\types.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\tchar.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\time.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\use_ansi.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\vadefs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\vcclr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\wchar.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\xkeycheck.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\xlocinfo.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\ymath.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h" />
+    <ClInclude Include="CVIPlab.h" />
+    <ClInclude Include="CVIPlab_Project.h" />
+    <ClInclude Include="patient.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Scans.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="..\include\bilinear.h" />
+    <ClInclude Include="..\include\bilinear_prim.h" />
+    <ClInclude Include="..\include\bitplane_RLC.h" />
+    <ClInclude Include="..\include\block_trunc_coding.h" />
+    <ClInclude Include="..\include\BMP.H" />
+    <ClInclude Include="..\include\boundary_points.h" />
+    <ClInclude Include="..\include\cderror.h" />
+    <ClInclude Include="..\include\cdjpeg.h" />
+    <ClInclude Include="..\include\color_adjust.h" />
+    <ClInclude Include="..\include\ColorMap.h" />
+    <ClInclude Include="..\include\CVIPalloc.h" />
+    <ClInclude Include="..\include\CVIParith.h" />
+    <ClInclude Include="..\include\CVIParithlogic.h" />
+    <ClInclude Include="..\include\CVIPband.h" />
+    <ClInclude Include="..\include\CVIPbin.h" />
+    <ClInclude Include="..\include\CVIPbitwiseIO.h" />
+    <ClInclude Include="..\include\CVIPccc.h" />
+    <ClInclude Include="..\include\CVIPcmap.h" />
+    <ClInclude Include="..\include\CVIPcolor.h" />
+    <ClInclude Include="..\include\CVIPcomplex.h" />
+    <ClInclude Include="..\include\CVIPcompress.h" />
+    <ClInclude Include="..\include\CVIPconutils.h" />
+    <ClInclude Include="..\include\CVIPconvert.h" />
+    <ClInclude Include="..\include\CVIPdef.h" />
+    <ClInclude Include="..\include\CVIPdermvis.h" />
+    <ClInclude Include="..\include\CVIPdrawimg.h" />
+    <ClInclude Include="..\include\CVIPenhance.h" />
+    <ClInclude Include="..\include\CVIPeps.h" />
+    <ClInclude Include="..\include\CVIPerror.h" />
+    <ClInclude Include="..\include\CVIPfeatures.h" />
+    <ClInclude Include="..\include\CVIPfile.h" />
+    <ClInclude Include="..\include\CVIPfs.h" />
+    <ClInclude Include="..\include\CVIPgeometry.h" />
+    <ClInclude Include="..\include\CVIPget.h" />
+    <ClInclude Include="..\include\CVIPgif.h" />
+    <ClInclude Include="..\include\CVIPhalftone.h" />
+    <ClInclude Include="..\include\CVIPheli_rot.h" />
+    <ClInclude Include="..\include\CVIPhisto.h" />
+    <ClInclude Include="..\include\CVIPhistory.h" />
+    <ClInclude Include="..\include\CVIPicon.h" />
+    <ClInclude Include="..\include\CVIPimage.h" />
+    <ClInclude Include="..\include\CVIPitex.h" />
+    <ClInclude Include="..\include\CVIPjpeg.h" />
+    <ClInclude Include="..\include\CVIPluminance.h" />
+    <ClInclude Include="..\include\CVIPmagic.h" />
+    <ClInclude Include="..\include\CVIPmanager.h" />
+    <ClInclude Include="..\include\CVIPmap.h" />
+    <ClInclude Include="..\include\CVIPmatrix.h" />
+    <ClInclude Include="..\include\CVIPmesh.h" />
+    <ClInclude Include="..\include\CVIPmorph.h" />
+    <ClInclude Include="..\include\CVIPnoise.h" />
+    <ClInclude Include="..\include\CVIPobject.h" />
+    <ClInclude Include="..\include\CVIPparse.h" />
+    <ClInclude Include="..\include\CVIPpnm.h" />
+    <ClInclude Include="..\include\CVIPps.h" />
+    <ClInclude Include="..\include\CVIPras.h" />
+    <ClInclude Include="..\include\CVIProi.h" />
+    <ClInclude Include="..\include\CVIPsegment.h" />
+    <ClInclude Include="..\include\CVIPspfltr.h" />
+    <ClInclude Include="..\include\CVIPstring.h" />
+    <ClInclude Include="..\include\CVIPtexture.h" />
+    <ClInclude Include="..\include\CVIPtiff.h" />
+    <ClInclude Include="..\include\CVIPtoolkit.h" />
+    <ClInclude Include="..\include\CVIPtools.h" />
+    <ClInclude Include="..\include\CVIPtransform.h" />
+    <ClInclude Include="..\include\CVIPtyp.h" />
+    <ClInclude Include="..\include\CVIPvector.h" />
+    <ClInclude Include="..\include\CVIPview.h" />
+    <ClInclude Include="..\include\CVIPvip.h" />
+    <ClInclude Include="..\include\CVIPxel.h" />
+    <ClInclude Include="..\include\CVIPxformfilter.h" />
+    <ClInclude Include="..\include\DATATYPE.H" />
+    <ClInclude Include="..\include\deform_template.h" />
+    <ClInclude Include="..\include\DermVis.h" />
+    <ClInclude Include="..\include\DermvisDat.h" />
+    <ClInclude Include="..\include\DigitalLine.h" />
+    <ClInclude Include="..\include\dithers.h" />
+    <ClInclude Include="..\include\DLL.h" />
+    <ClInclude Include="..\include\ee.h" />
+    <ClInclude Include="..\include\eefunc.h" />
+    <ClInclude Include="..\include\ENDIANIO.H" />
+    <ClInclude Include="..\include\fcm.h" />
+    <ClInclude Include="..\include\filterVector.h" />
+    <ClInclude Include="..\include\findHisto.h" />
+    <ClInclude Include="..\include\findNonSkin.h" />
+    <ClInclude Include="..\include\fractal.h" />
+    <ClInclude Include="..\include\ftw.h" />
+    <ClInclude Include="..\include\fuzzyc.h" />
+    <ClInclude Include="..\include\g3states.h" />
+    <ClInclude Include="..\include\grey_RLC.h" />
+    <ClInclude Include="..\include\hist.h" />
+    <ClInclude Include="..\include\hist_thresh.h" />
+    <ClInclude Include="..\include\histogram.h" />
+    <ClInclude Include="..\include\HT.h" />
+    <ClInclude Include="..\include\huffman.h" />
+    <ClInclude Include="..\include\imaging.h" />
+    <ClInclude Include="..\include\img2imgmap.h" />
+    <ClInclude Include="..\include\jchuff.h" />
+    <ClInclude Include="..\include\jconfig.h" />
+    <ClInclude Include="..\include\jdct.h" />
+    <ClInclude Include="..\include\jdhuff.h" />
+    <ClInclude Include="..\include\jerror.h" />
+    <ClInclude Include="..\include\jinclude.h" />
+    <ClInclude Include="..\include\jmemsys.h" />
+    <ClInclude Include="..\include\jmorecfg.h" />
+    <ClInclude Include="..\include\jpegint.h" />
+    <ClInclude Include="..\include\jpeglib.h" />
+    <ClInclude Include="..\include\jversion.h" />
+    <ClInclude Include="..\include\labeling.h" />
+    <ClInclude Include="..\include\LBG.h" />
+    <ClInclude Include="..\include\libpbm.h" />
+    <ClInclude Include="..\include\libpgm.h" />
+    <ClInclude Include="..\include\libppm.h" />
+    <ClInclude Include="..\include\Link.h" />
+    <ClInclude Include="..\include\LL.h" />
+    <ClInclude Include="..\include\m_CovEig.h" />
+    <ClInclude Include="..\include\m_file.h" />
+    <ClInclude Include="..\include\machdep.h" />
+    <ClInclude Include="..\include\masks.h" />
+    <ClInclude Include="..\include\MATcopy.h" />
+    <ClInclude Include="..\include\MATmult.h" />
+    <ClInclude Include="..\include\MATpwise.h" />
+    <ClInclude Include="..\include\MATscale.h" />
+    <ClInclude Include="..\include\median_cut.h" />
+    <ClInclude Include="..\include\misc_fcns.h" />
+    <ClInclude Include="..\include\mymath.h" />
+    <ClInclude Include="..\include\newfeature.h" />
+    <ClInclude Include="..\include\Object.h" />
+    <ClInclude Include="..\include\ObjectContour.h" />
+    <ClInclude Include="..\include\ObjectLabel.h" />
+    <ClInclude Include="..\include\ObjectProperties.h" />
+    <ClInclude Include="..\include\pbm.h" />
+    <ClInclude Include="..\include\pbmfont.h" />
+    <ClInclude Include="..\include\pbmplus.h" />
+    <ClInclude Include="..\include\pct.h" />
+    <ClInclude Include="..\include\pgm.h" />
+    <ClInclude Include="..\include\pnm.h" />
+    <ClInclude Include="..\include\port.h" />
+    <ClInclude Include="..\include\ppbm.h" />
+    <ClInclude Include="..\include\ppbmplus.h" />
+    <ClInclude Include="..\include\ppgm.h" />
+    <ClInclude Include="..\include\ppm.h" />
+    <ClInclude Include="..\include\ppmcmap.h" />
+    <ClInclude Include="..\include\ppmdraw.h" />
+    <ClInclude Include="..\include\prototypes.h" />
+    <ClInclude Include="..\include\pversion.h" />
+    <ClInclude Include="..\include\rast.h" />
+    <ClInclude Include="..\include\sct_split.h" />
+    <ClInclude Include="..\include\SeedFill.h" />
+    <ClInclude Include="..\include\seg.h" />
+    <ClInclude Include="..\include\Spline.h" />
+    <ClInclude Include="..\include\split_merge.h" />
+    <ClInclude Include="..\include\Stack.h" />
+    <ClInclude Include="..\include\subSample.h" />
+    <ClInclude Include="..\include\t4.h" />
+    <ClInclude Include="..\include\threshold.h" />
+    <ClInclude Include="..\include\tif_dir.h" />
+    <ClInclude Include="..\include\tif_fax3.h" />
+    <ClInclude Include="..\include\tif_predict.h" />
+    <ClInclude Include="..\include\tiff.h" />
+    <ClInclude Include="..\include\tiffcomp.h" />
+    <ClInclude Include="..\include\tiffconf.h" />
+    <ClInclude Include="..\include\tiffio.h" />
+    <ClInclude Include="..\include\tiffiop.h" />
+    <ClInclude Include="..\include\TrimList.h" />
+    <ClInclude Include="..\include\tristimulus.h" />
+    <ClInclude Include="..\include\vector_data.h" />
+    <ClInclude Include="..\include\vector_quant.h" />
+    <ClInclude Include="..\include\version.h" />
+    <ClInclude Include="..\include\watershed.h" />
+    <ClInclude Include="..\include\wavelet.h" />
+    <ClInclude Include="..\include\waves.h" />
+    <ClInclude Include="..\include\zonal.h" />
+    <ClInclude Include="..\include\rpc\auth.h" />
+    <ClInclude Include="..\include\rpc\auth_uni.h" />
+    <ClInclude Include="..\include\rpc\bcopy.h" />
+    <ClInclude Include="..\include\rpc\clnt.h" />
+    <ClInclude Include="..\include\rpc\netdb.h" />
+    <ClInclude Include="..\include\rpc\pmap_cln.h" />
+    <ClInclude Include="..\include\rpc\pmap_pro.h" />
+    <ClInclude Include="..\include\rpc\pmap_rmt.h" />
+    <ClInclude Include="..\include\rpc\rpc.h" />
+    <ClInclude Include="..\include\rpc\rpc_msg.h" />
+    <ClInclude Include="..\include\rpc\svc.h" />
+    <ClInclude Include="..\include\rpc\svc_auth.h" />
+    <ClInclude Include="..\include\rpc\types.h" />
+    <ClInclude Include="..\include\rpc\xdr.h" />
+    <ClInclude Include="test_patient.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\ArithLogic.lib" />
+    <Library Include="..\lib\Band.lib" />
+    <Library Include="..\lib\Color.lib" />
+    <Library Include="..\lib\Compression.lib" />
+    <Library Include="..\lib\Conversion.lib" />
+    <Library Include="..\lib\Display.lib" />
+    <Library Include="..\lib\Feature.lib" />
+    <Library Include="..\lib\Geometry.lib" />
+    <Library Include="..\lib\Histogram.lib" />
+    <Library Include="..\lib\Image.lib" />
+    <Library Include="..\lib\IO.lib" />
+    <Library Include="..\lib\JPEG.lib" />
+    <Library Include="..\lib\Mapping.lib" />
+    <Library Include="..\lib\Matrix.lib" />
+    <Library Include="..\lib\Morphological.lib" />
+    <Library Include="..\lib\Noise.lib" />
+    <Library Include="..\lib\Object.lib" />
+    <Library Include="..\lib\ObjectManager.lib" />
+    <Library Include="..\lib\oncrpc.lib" />
+    <Library Include="..\lib\PBM.lib" />
+    <Library Include="..\lib\ROI.lib" />
+    <Library Include="..\lib\rpcinfo.lib" />
+    <Library Include="..\lib\Segmentation.lib" />
+    <Library Include="..\lib\SpatialFilter.lib" />
+    <Library Include="..\lib\TIFF.lib" />
+    <Library Include="..\lib\Transform.lib" />
+    <Library Include="..\lib\TransformFilter.lib" />
+    <Library Include="..\lib\Vector.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\commctrl.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\commdlg.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\prsht.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winbase.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afx.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcmn.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcmn2.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcmn3.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcoll.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxcomctl32.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdlgs.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxdtctl.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxext.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxole.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin1.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin2.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin3.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin4.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlbase.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcomtime.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltime.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atltypes.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\cstringt.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\swprintf.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\sys\stat.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl" />
+    <None Include="..\..\..\..\..\..\..\program files (x86)\microsoft visual studio 10.0\vc\include\wtime.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

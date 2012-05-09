@@ -1,0 +1,112 @@
+﻿Build started 5/7/2012 3:57:48 PM.
+     1>Project "C:\Users\Austin Traverse\Downloads\CVIPlab .NET 2010 binary(1)\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\CVIPlab_Project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\CVIPlab_Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt CVIPlab.c
+         CVIPlab.c
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(24): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(42): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(44): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(46): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(50): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(33): warning C4101: 'x' : unreferenced local variable
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(69): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(71): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(76): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(98): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(101): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(118): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(122): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\patient.h(125): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\scans.h(34): warning C4013: 'label' undefined; assuming extern returning int
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\scans.h(34): warning C4013: 'threshold_segment' undefined; assuming extern returning int
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\scans.h(34): warning C4047: '=' : 'Image *' differs in levels of indirection from 'int'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\scans.h(44): warning C4013: 'hist_feature' undefined; assuming extern returning int
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\scans.h(44): warning C4047: '=' : 'double *' differs in levels of indirection from 'int'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\scans.h(77): warning C4047: '=' : 'Image *' differs in levels of indirection from 'int'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\scans.h(87): warning C4047: '=' : 'double *' differs in levels of indirection from 'int'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\scans.h(117): warning C4047: '=' : 'Image *' differs in levels of indirection from 'int'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\scans.h(127): warning C4047: '=' : 'double *' differs in levels of indirection from 'int'
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\cviplab.c(118): warning C4013: 'Print_Types' undefined; assuming extern returning int
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\cviplab.c(123): warning C4013: 'Print_Diagnosis' undefined; assuming extern returning int
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\cviplab.c(84): warning C4101: 'fname' : unreferenced local variable
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\cviplab.c(83): warning C4101: 'id' : unreferenced local variable
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\cviplab.c(80): warning C4101: 'outputfile' : unreferenced local variable
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\cviplab.c(78): warning C4101: 'format' : unreferenced local variable
+     1>c:\users\austin traverse\downloads\cviplab .net 2010 binary(1)\cviplab .net 2010 binary\cviplab-net-2010\cviplab\cviplab.c(85): warning C4101: 'select' : unreferenced local variable
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/CVIPlab_Project.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib ws2_32.lib ArithLogic.lib Band.lib Color.lib Compression.lib Conversion.lib Display.lib Feature.lib Geometry.lib Histogram.lib Image.lib IO.lib JPEG.lib ObjectManager.lib Mapping.lib Matrix.lib Morphological.lib Noise.lib Object.lib oncrpc.lib PBM.lib rpcinfo.lib ROI.lib Segmentation.lib SpatialFilter.lib TIFF.lib Transform.lib Vector.lib TransformFilter.lib /NODEFAULTLIB:LIBC.LIB /NODEFAULTLIB:LIBCD.LIB /NODEFAULTLIB:LIBCMT.LIB /NODEFAULTLIB:LIBCMTD.LIB /NODEFAULTLIB:MSVCRT.LIB /MANIFEST /ManifestFile:".\Debug\CVIPlab_Project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/CVIPlab_Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\CVIPlab_Project.lib" /MACHINE:X86 .\Debug\CVIPlab_Project.res
+         .\Debug\CVIPlab_Project.exe.embed.manifest.res
+         .\Debug/CVIPlab.obj
+         .\Debug/CVIPlab_Project.obj
+         .\Debug/StdAfx.obj
+         .\Debug/threshold_lab.obj
+         ..\lib\ArithLogic.lib
+         ..\lib\Band.lib
+         ..\lib\Color.lib
+         ..\lib\Compression.lib
+         ..\lib\Conversion.lib
+         ..\lib\Display.lib
+         ..\lib\Feature.lib
+         ..\lib\Geometry.lib
+         ..\lib\Histogram.lib
+         ..\lib\Image.lib
+         ..\lib\IO.lib
+         ..\lib\JPEG.lib
+         ..\lib\Mapping.lib
+         ..\lib\Matrix.lib
+         ..\lib\Morphological.lib
+         ..\lib\Noise.lib
+         ..\lib\Object.lib
+         ..\lib\ObjectManager.lib
+         ..\lib\oncrpc.lib
+         ..\lib\PBM.lib
+         ..\lib\ROI.lib
+         ..\lib\rpcinfo.lib
+         ..\lib\Segmentation.lib
+         ..\lib\SpatialFilter.lib
+         ..\lib\TIFF.lib
+         ..\lib\Transform.lib
+         ..\lib\TransformFilter.lib
+         ..\lib\Vector.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\CVIPlab_Project.exe.embed.manifest" /manifest .\Debug\CVIPlab_Project.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         CVIPlab_Project.vcxproj -> C:\Users\Austin Traverse\Downloads\CVIPlab .NET 2010 binary(1)\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\.\Debug\CVIPlab_Project.exe
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/CVIPlab_Project.bsc" .\Debug\CVIPlab.sbr .\Debug\CVIPlab_Project.sbr .\Debug\StdAfx.sbr .\Debug\threshold_lab.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\CVIPlab_Project.unsuccessfulbuild".
+         Touching ".\Debug\CVIPlab_Project.lastbuildstate".
+     1>Done Building Project "C:\Users\Austin Traverse\Downloads\CVIPlab .NET 2010 binary(1)\CVIPlab .NET 2010 binary\CVIPlab-net-2010\CVIPlab\CVIPlab_Project.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.03
